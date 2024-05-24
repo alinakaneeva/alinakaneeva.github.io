@@ -1,0 +1,61 @@
+body{
+    background-image: url(part1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    backdrop-filter: invert(8%) ;
+    position: relative;
+}
+.studio{
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+    
+}
+.par1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.par2{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    opacity: 1;
+}
+.par{
+    margin-left: 12em;
+    margin-top: 30em;
+    position: absolute;
+}
+.studio{
+    margin-left: 3em;
+    padding: 1em;
+}
+.topnav{
+    overflow: hidden;
+    
+}
+.topnav #myLinks{
+    display: none;
+}
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+.topnav  a.icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 30px;
+}
