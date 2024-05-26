@@ -76,3 +76,6 @@ input:before {
     content: "*";
     color: #34BE82;
 }
+.firstName{
+    margin-right: 20px;
+}
