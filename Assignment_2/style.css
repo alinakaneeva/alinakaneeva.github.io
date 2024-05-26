@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #31363F;
+    height: 40em;
+    margin: 10em 10em;
+    margin-top: 5em;
+    padding: 5em;
+    font-family: "Open Sans", sans-serif;
+}
+.topbtn{
+    display: flex;
+}
+#signUp{
+    color: #fff;
+    background-color: #34BE82;
+    padding: 14px;
+    text-align: center;
+    border: none;
+    width: 50%;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+#logIn{
+    background-color: #73777B;
+    color: #F1EEE9;
+    padding: 14px;
+    text-align: center;
+    border: none;
+    width: 50%;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+p{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 1em;
+    margin-bottom: 30px;
+    background-color: transparent;
+    color: #F1EEE9;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    border: 1px solid #F1EEE9;
+}
+.name{
+    display: flex;
+    flex-wrap: wrap;
+}
+.name input{
+    flex: 1;
+}
+#btn{
+    padding: 20px;
+    background-color: #34BE82;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 3px;
+}
+.name .asterisk label:after {
+    content:" *";
+    color: #34BE82;
+}
+input:before {
+    content: "*";
+    color: #34BE82;
+}
